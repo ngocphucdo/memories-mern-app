@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:5000/posts';
+const url = 'https://ngocphucdo-memories-app.herokuapp.com/posts';
 
 const fetchPosts = () => axios.get(url);
 const createPost = (newPost) => axios.post(url, newPost);
